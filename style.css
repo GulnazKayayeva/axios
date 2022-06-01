@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.input_write {
+    all: unset;
+    width: 200px;
+    height: 8px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.newAge{
+    all: unset;
+    width: 70px;
+    height: 8px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin: 0px 20px;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid black;
+}
+
+.age{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+
+}
+
+.age button {
+    margin: 0;
+    width: 40px;
+    height: 30px;
+}
+
+.newTask {
+    /* width: 210px; */
+    height: 100px;
+    background-color: rgb(186, 190, 197);
+    border: 2px solid rgb(122, 122, 134);
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ass {
+    width: fit-content;
+    display: grid;
+    width: 100%;
+    margin: 20px auto;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.invalid {
+    border: 2px solid red;
+}
+
+.cont{
+    display: flex;
+    width: 90%;
+    margin: 10px auto;
+    justify-content: space-between;
+}
+
+.newww{
+    width: 50%;
+
+    padding: 20px;
+    border-radius: 10px ;
+}
